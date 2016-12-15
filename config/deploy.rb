@@ -3,7 +3,7 @@ server '192.168.0.107', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:prodhan29/CapDemo.git'
 set :application,     'Capdemo'
-set :user,            'deploy'
+set :user,            'vagrant'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
