@@ -1,5 +1,5 @@
 # Change these
-server '192.168.0.107', port: 22, roles: [:web, :app, :db], primary: true
+server '192.168.0.103', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:prodhan29/CapDemo.git'
 set :application,     'Capdemo'
